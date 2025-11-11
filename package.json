@@ -1,0 +1,25 @@
+{
+  "name": "dailymemo-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android": "npm run build && npx cap copy && npx cap open android",
+    "ios": "npm run build && npx cap copy && npx cap open ios"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10",
+    "@vitejs/plugin-react": "^4.3.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/ios": "^6.1.2"
+  }
+}

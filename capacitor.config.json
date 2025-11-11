@@ -1,0 +1,9 @@
+{
+  "appId": "com.example.dailymemo",
+  "appName": "일일메모지",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
